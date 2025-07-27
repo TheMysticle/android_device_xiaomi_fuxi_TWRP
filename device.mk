@@ -36,6 +36,10 @@ PRODUCT_PACKAGES += \
     bootctrl.xiaomi_sm8550.recovery \
     android.hardware.boot@1.2-impl-qti.recovery
 
+# Keystore
+PRODUCT_PACKAGES += \
+    android.system.keystore2
+
 # SHIPPING API
 PRODUCT_SHIPPING_API_LEVEL := 31
 # VNDK API
